@@ -6,8 +6,8 @@ month_dict = {'jan': 31, 'feb': 28, 'mar': 31, 'apr': 30, 'may': 31, 'jun': 30, 
 
 
 def num_days(item):
-    for i in month_dict:
-        if i == item:
+    for key in month_dict:
+        if key == item:
             print('Number of days in', item.title(), 'is', month_dict[month])
 
 
