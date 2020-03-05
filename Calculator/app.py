@@ -1,3 +1,7 @@
+# Create a calculator which handles +,-,*,/ and outputs answer based on the mode/ operator used
+# Bonus: Extend functionality with extra mode so it also does celsius to fahrenheit conversion
+
+
 while True:
     which_function = input("Would you like to use the calculator or the converter or neither?")
     if which_function.lower() == 'calculator':
